@@ -11,23 +11,22 @@
         |_|_\___/_.__/\___|_||_|
                                 
 
-_Robgednaut_ (from **Rob**otic, Rug**ged**, and _-**naut**_ [like
-_astronaut_]), commonly _Roben_, it's a simple hardware platform for the
-introduction to robotics. Use an Arduino Nano to provide four multifunction
-connections. Also has ability to move up to two (forward/reverse) or up to four
-(one direction) motors with the replaceable driver included. It can be used
-stand-alone or controlled from a computer, also it has numerous protections so
-you don't have to worry about if you break it!
+_Robgednaut_ (from **Rob**otic, Rug**ged**, and _-**naut**_ [like 
+_astronaut_]), commonly _Roben_, it's a simple hardware platform for the 
+introduction to robotics. Use an Arduino Nano to provide four multifunction 
+connections. Also has ability to move up to two motors with the replaceable 
+driver included. It can be used stand-alone or controlled from a computer, also 
+it has numerous protections so you don't have to worry about if you break it!
 
 Robgednaut is free software/hardware. See License Information below.
 
 ## Repository Contents ##
 
 -   `/3d/` 3D design source code.
-    *   `/3d/bin/` Files resulting from the compilation of 3D designs (`STL`
+    *   `/3d/bin/` Files resulting from the compilation of 3D designs (`STL` 
 files).  
 -   `/brd/` Hardware source code.  
-    *    `/brd/bin/` Files resulting from the compilation of hardware (`PDF`
+    *    `/brd/bin/` Files resulting from the compilation of hardware (`PDF` 
 and Gerber files).  
 -   `/src/` Firmware source code.  
     *   `/src/bin/` Files resulting from the compilation of code (`HEX` files).
@@ -37,28 +36,20 @@ Robgednaut can be obtained on GitHub:
 
 ## Installation and use ##
 
-_Roben_ is very easy to use! You just need a Arduino Nano with the firmware we
-provide (compatible with firmata) or your own, your _Robgednaut_, and a power
-supply (6 to 28v). Connect things to their I/O and enjoy making it work!  
-It can  be managed from Scratch by Firmata gateway, or from your own software.
-
->  **Warning**: Make sure you have the proper firmware BEFORE you connect your
-> Arduino Nano to _Robgednaut_. Not doing so may damage your Arduino.
-
-### Pinout ###
-
-|Robgednaut|Arduino|Function|
-|---|---|---|
-| +V | - | 5v power out |
-| GND | GND | Ground |
-| A | D2, A2 | Analog input, digital I/O, `INT` |
-| B | D3, A3 | Analog input, digital I/O, `INT`, `PWM` |
-| C | D13, A5 | Analog input, digital I/O, `SCL`, `SCK` |
-| D | D11, A4 | Analog input, digital I/O, `PWM`, `SDA`, `MOSI` |
-| 1+ | D7 (en), D5 (`PWM`) | Half H-Bridge 1 output |
-| 1- | D7 (en), D6 (`PWM`) | Half H-Bridge 1 output |
-| 2+ | D8 (en), D9 (`PWM`) | Half H-Bridge 2 output |
-| 2- | D8 (en), D10 (`PWM`) | Half H-Bridge 2 output |
+_Roben_ is very easy to use! You just need a Arduino Nano with the firmware we 
+provide (compatible with firmata) or your own, your _Robgednaut_, and a power 
+supply (6 to 28v). Connect things to their I/O and enjoy making it work! It can 
+be managed from Scratch by Firmata gateway, or from your own software. > 
+**Warning**: Make sure you have the proper firmware BEFORE you connect your 
+Arduino Nano to _Robgednaut_. Not doing so may damage your Arduino. #### Pinout 
+#### |Robgednaut|Arduino|Function| |---|---|---| | +V | - | 5v power out | | 
+GND | GND | Ground | | A | D2, A2 | Analog input, digital I/O, `INT` | | B | 
+D3, A3 | Analog input, digital I/O, `INT`, `PWM` | | C | D13, A5 | Analog 
+input, digital I/O, `SCL`, `SCK` | | D | D11, A4 | Analog input, digital I/O, 
+`PWM`, `SDA`, `MOSI` | | 1+ | D7 (en), D5 (`PWM`) | Half H-Bridge 1 output | | 
+1- | D7 (en), D6 (`PWM`) | Half H-Bridge 1 output | | 2+ | D8 (en), D9 (`PWM`) 
+| Half H-Bridge 2 output | | 2- | D8 (en), D10 (`PWM`) | Half H-Bridge 2 output 
+|
 
 ## License Information ##
 
@@ -69,22 +60,22 @@ See `/src/` folder.
 The hardware design is released under
 [GNU/GPL](https://www.gnu.org/licenses/gpl.html "GNU General Public License").
 See `/brd/` folder.  
-Source code hardware is considered any file created and stored by the CAD tool
-with design information. To KiCAD are mainly `SCH`, `NET`, `KICAD_PCB` files
+Source code hardware is considered any file created and stored by the CAD tool 
+with design information. To KiCAD are mainly `SCH`, `NET`, `KICAD_PCB` files 
 and associated.  
-Binary hardware is considered any file created from source code. To KiCAD they
+Binary hardware is considered any file created from source code. To KiCAD they 
 are mainly `PDF`, `CSV` files and manufacturing files (e.g. gerber).  
-Binary hardware execution is considered any process derived from binary
+Binary hardware execution is considered any process derived from binary 
 hardware, such as manufacturing.
 
 The 3D designs are released under
 [GNU/GPL](https://www.gnu.org/licenses/gpl.html "GNU General Public License").
 See `/3d/` folder.  
-Source code 3D is considered any file created and stored by the CAD tool with
+Source code 3D is considered any file created and stored by the CAD tool with 
 design information. To OpenSCAD are mainly `SCAD` files.  
-Binary 3D is considered any file created from source code. To OpenSCAD they are
+Binary 3D is considered any file created from source code. To OpenSCAD they are 
 mainly rendering and manufacturing files (e.g. `STL`).  
-Binary 3D execution is considered any process derived from binary 3D, such as
+Binary 3D execution is considered any process derived from binary 3D, such as 
 manufacturing.
 
 See the corresponding `COPYING` file.
@@ -94,9 +85,9 @@ See the corresponding `COPYING` file.
 Robgednaut uses
 [Semantic Versioning](http://semver.org/ "Semantic Versioning").
 
-<!-- Robgednaut version 
-[](https://github.com/akornsys-rdi/robgednaut/releases/download//robgednaut-.zip "")
-is the latest stable version. -->
+Robgednaut version 
+[v1.0.0](https://github.com/akornsys-rdi/robgednaut/archive/v1.0.0.zip "v1.0.0")
+is the latest stable version.
 
 If you are interested, you can view the version history:
 [`ChangeLog`](ChangeLog.md)
@@ -112,8 +103,8 @@ You can read the information about the developers:
 [`AUTHORS`](AUTHORS.md)
 
 
-_Last modification: 2015-09-10_
-_This file was automatically generated by KodeUtils 1.0.0_
+_Last modification: 2016-01-17_  
+_This file was automatically generated by KodeUtils 1.0.2_
 
 * * *
 
