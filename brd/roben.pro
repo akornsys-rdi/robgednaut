@@ -1,4 +1,4 @@
-update=jue 10 sep 2015 20:33:14 CEST
+update=dom 17 ene 2016 20:40:03 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,5 @@ LibName29=valves
 LibName30=/home/kwendenarmo/.kicad-cache/asrdi-schematic/Ardunano
 LibName31=/home/kwendenarmo/.kicad-cache/asrdi-schematic/SN754410N
 LibName32=/home/kwendenarmo/.kicad-cache/asrdi-schematic/TPS54232
+LibName33=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/LM3488
+LibName34=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/fds8449
