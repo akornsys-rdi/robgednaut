@@ -40,12 +40,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Robgednaut"
-Date "2015-09-10"
-Rev "1.0.0"
+Date "2016-01-23"
+Rev "2.0.0"
 Comp "Akornsys-rdi"
 Comment1 "https:github.com/akornsys-rdi/robgednaut"
 Comment2 ""
-Comment3 "Copyright (C) 2015 kwendenarmo"
+Comment3 "Copyright (C) 2015-2016 kwendenarmo"
 Comment4 "Released under GNU/GPL 3 License https://www.gnu.org/licenses/gpl.html"
 $EndDescr
 $Comp
