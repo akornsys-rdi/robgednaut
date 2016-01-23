@@ -1,4 +1,4 @@
-update=dom 17 ene 2016 20:40:03 CET
+update=mié 20 ene 2016 21:11:29 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,13 @@ LibName31=/home/kwendenarmo/.kicad-cache/asrdi-schematic/SN754410N
 LibName32=/home/kwendenarmo/.kicad-cache/asrdi-schematic/TPS54232
 LibName33=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/LM3488
 LibName34=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/fds8449
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
