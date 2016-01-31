@@ -2131,13 +2131,13 @@ Wire Wire Line
 	6650 3725 6725 3725
 Connection ~ 6725 3725
 Connection ~ 6725 3625
-Text GLabel 5825 3425 0    50   Input ~ 0
-D5
 Text GLabel 5825 3525 0    50   Input ~ 0
+D5
+Text GLabel 5825 3725 0    50   Input ~ 0
 D6
 Text GLabel 5825 3625 0    50   Input ~ 0
 D9
-Text GLabel 5825 3725 0    50   Input ~ 0
+Text GLabel 5825 3425 0    50   Input ~ 0
 D10
 Wire Wire Line
 	5825 3725 5900 3725
