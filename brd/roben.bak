@@ -1453,13 +1453,13 @@ D13
 Wire Wire Line
 	3350 3250 3275 3250
 Text GLabel 3350 2550 2    50   Input ~ 0
-A2
-Text GLabel 3350 2450 2    50   Input ~ 0
-A3
-Text GLabel 3350 2350 2    50   Input ~ 0
 A4
-Text GLabel 3350 2250 2    50   Input ~ 0
+Text GLabel 3350 2450 2    50   Input ~ 0
 A5
+Text GLabel 3350 2350 2    50   Input ~ 0
+A6
+Text GLabel 3350 2250 2    50   Input ~ 0
+A7
 Text GLabel 5300 2425 0    50   Input ~ 0
 D5
 Text GLabel 5300 2925 0    50   Input ~ 0
@@ -1551,7 +1551,7 @@ Connection ~ 8075 3175
 Text GLabel 7975 3175 0    50   BiDi ~ 0
 D2
 Text GLabel 7975 3075 0    50   Output ~ 0
-A2
+A7
 Wire Wire Line
 	7975 3075 8075 3075
 Connection ~ 8075 3075
@@ -1679,7 +1679,7 @@ Connection ~ 9675 3175
 Text GLabel 9575 3175 0    50   BiDi ~ 0
 D3
 Text GLabel 9575 3075 0    50   Output ~ 0
-A3
+A6
 Wire Wire Line
 	9575 3075 9675 3075
 Connection ~ 9675 3075
@@ -1810,7 +1810,7 @@ Connection ~ 8075 4425
 Text GLabel 7975 4525 0    50   BiDi ~ 0
 D13
 Text GLabel 7975 4425 0    50   Output ~ 0
-A5
+A4
 $Comp
 L GND #PWR042
 U 1 1 56A5FA4C
@@ -1949,7 +1949,7 @@ Connection ~ 9675 4425
 Text GLabel 9575 4525 0    50   BiDi ~ 0
 D11
 Text GLabel 9575 4425 0    50   Output ~ 0
-A4
+A5
 $Comp
 L GND #PWR045
 U 1 1 56A60EE9
