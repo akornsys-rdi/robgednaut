@@ -1352,13 +1352,9 @@ Connection ~ 1150 2350
 Wire Wire Line
 	3950 1875 3950 1800
 Wire Wire Line
-	3275 2250 3525 2250
+	3525 2650 3525 1450
 Wire Wire Line
-	3525 2250 3525 1450
-Wire Wire Line
-	3275 2350 3625 2350
-Wire Wire Line
-	3625 2350 3625 2100
+	3625 2750 3625 2100
 Wire Wire Line
 	7250 2825 7025 2825
 Wire Wire Line
@@ -1456,22 +1452,14 @@ Text GLabel 3350 3250 2    50   BiDi ~ 0
 D13
 Wire Wire Line
 	3350 3250 3275 3250
-Text GLabel 3350 2750 2    50   Input ~ 0
-A2
-Text GLabel 3350 2650 2    50   Input ~ 0
-A3
 Text GLabel 3350 2550 2    50   Input ~ 0
-A4
+A2
 Text GLabel 3350 2450 2    50   Input ~ 0
+A3
+Text GLabel 3350 2350 2    50   Input ~ 0
+A4
+Text GLabel 3350 2250 2    50   Input ~ 0
 A5
-Wire Wire Line
-	3350 2750 3275 2750
-Wire Wire Line
-	3350 2650 3275 2650
-Wire Wire Line
-	3350 2550 3275 2550
-Wire Wire Line
-	3350 2450 3275 2450
 Text GLabel 5300 2425 0    50   Input ~ 0
 D5
 Text GLabel 5300 2925 0    50   Input ~ 0
@@ -2368,4 +2356,16 @@ Wire Wire Line
 Wire Wire Line
 	3950 1500 3950 1450
 Connection ~ 3950 1450
+Wire Wire Line
+	3275 2650 3525 2650
+Wire Wire Line
+	3275 2750 3625 2750
+Wire Wire Line
+	3275 2250 3350 2250
+Wire Wire Line
+	3350 2350 3275 2350
+Wire Wire Line
+	3275 2450 3350 2450
+Wire Wire Line
+	3350 2550 3275 2550
 $EndSCHEMATC
