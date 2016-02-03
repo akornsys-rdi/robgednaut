@@ -1,4 +1,4 @@
-update=jue 10 sep 2015 20:33:14 CEST
+update=mar 02 feb 2016 19:37:59 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,16 @@ LibName29=valves
 LibName30=/home/kwendenarmo/.kicad-cache/asrdi-schematic/Ardunano
 LibName31=/home/kwendenarmo/.kicad-cache/asrdi-schematic/SN754410N
 LibName32=/home/kwendenarmo/.kicad-cache/asrdi-schematic/TPS54232
+LibName33=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/LM3488
+LibName34=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/fds8449
+LibName35=/home/kwendenarmo/git-repos/local/akornsys-rdi-kilib/asrdi-schematic/diode-sot23
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=bin/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
