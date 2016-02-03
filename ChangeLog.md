@@ -1,5 +1,48 @@
 # robgednaut #
 
+## v2.0.0 (2016-02-03 21:07:56 +0100) ##
+
+-   Merge branch 'dev' (ea87400) [kwendenarmo]  
+-   chg: modificados archivos README (2095d0f) [kwendenarmo]  
+-   chg: añadido logo robgednaut (05b1413) [kwendenarmo]  
+-   chg: añadidos BOM (879a797) [kwendenarmo]  
+-   chg: generados archivos gerbers (65fa47a) [kwendenarmo]  
+-   chg: corregidos errores (54a3575) [kwendenarmo]  
+-   chg: diseñado pcb (0aa2eb8) [kwendenarmo]  
+-   chg: generado pdf de esquematico (6a36658) [kwendenarmo]  
+-   chg: reordenadas salidas LED (575e865) [kwendenarmo]  
+-   chg: BREAKING reasignadas uniones I/O (9104eee) [kwendenarmo]  
+-   chg: reordenados LED de motores en consonancia (ce2735c) [kwendenarmo]  
+-   chg: BREAKING intercambiadas salidas de motores (cc0f961) [kwendenarmo]  
+-   chg: BREAKING desplazadas conexiones analogicas (ebe521a) [kwendenarmo]  
+-   chg: mejoradas asociaciones de zócalos, resuelto #3 (3adda39) 
+[kwendenarmo]  
+-   chg: reanotados componentes (63fb064) [kwendenarmo]  
+-   chg: corregida conexion bluetooth (e7f7556) [kwendenarmo]  
+-   chg: finalizado esquematico (fccc090) [kwendenarmo]  
+-   chg: creada netlist y asociaciones (879a406) [kwendenarmo]  
+-   chg: actualizada informacion de esquematico (05a892c) [kwendenarmo]  
+-   chg: anotados componentes en esquematico (92b83ad) [kwendenarmo]  
+-   chg: añadida comunicacion bluetooth (00d5ea8) [kwendenarmo]  
+-   chg: añadidos indicadores de salida en motores (3735713) [kwendenarmo]  
+-   chg: añadido seleccion de tension para motores (6d45aea) [kwendenarmo]  
+-   chg: optimizado esquemático y circuito (c8d9137) [kwendenarmo]  
+-   new: añadido indicador de bateria baja, segun #7 (6b159d9) [kwendenarmo]  
+-   new: añadido interruptor de encendido, segun #6 (56736e5) [kwendenarmo]  
+-   new: añadidos periféricos en pines libres, segun #4 (238fac0) 
+[kwendenarmo]  
+-   new: reemplazado step-down por sepic, segun #2 (c6fa1af) [kwendenarmo]  
+-   new: modificada inversión de polaridad según #1 (eda3754) [kwendenarmo]  
+-   chg::doc: actualizados archivos README (ae55fe1) [kwendenarmo]  
+-   Merge branch 'dev' (50cd418) [kwendenarmo]  
+-   new: importado ``robgednaut-firmware`` (19c5e0d) [kwendenarmo]  
+-   new: movido src a ``robgednaut-firmware`` repo (0113481) [kwendenarmo]  
+-   chg: dev: subido codigo demo !wip (1088910) [kwendenarmo]  
+-   chg: dev: añadidas referencias datasheet y BOM (1f88c82) [kwendenarmo]  
+-   new: dev: subida PCB (7137780) [kwendenarmo]  
+-   new: doc: Subidos conjunto de archivos README (60098a3) [kwendenarmo]  
+-   Initial commit (a08f8ef) [kwendenarmo]  
+
 ## v1.0.0 (2016-01-17 18:32:07 +0100) ##
 
 -   Merge branch 'dev' (50cd418) [kwendenarmo]  
