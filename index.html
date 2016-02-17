@@ -28,14 +28,7 @@
         </ul>
       </header>
       <section>
-        <h1>
-<a id="robgednaut" class="anchor" href="#robgednaut" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Robgednaut:</h1>
-
-<p>Plataforma de introducción a la robótica, robusta y fácil de usar.</p>
-
-<p><img src="img/robgednaut-logo.png" alt="Robgednaut"></p>
-
-<h2>
+        <h2>
 <a id="presentación" class="anchor" href="#presentaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Presentación</h2>
 
 <h3>
@@ -46,7 +39,7 @@
 <h3>
 <a id="robgednaut-es-educación-libre" class="anchor" href="#robgednaut-es-educaci%C3%B3n-libre" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Robgednaut</em> es educación libre.</h3>
 
-<p>Ha sido diseñado para cubrir la carencia de una plataforma educativa robótica que sea libre, sencilla y barata. Desde su sencillez de uso esconde gran potencia y capacidad versátil, así como robustez y fiabilidad. Esto lo hace ideal para procesos de aprendizaje, proyectos, maquetas o productos finales.</p>
+<p>Ha sido diseñado para cubrir la carencia de una plataforma educativa robótica que sea libre, asequible y fácil de usar. Desde su sencillez de uso esconde gran potencia y capacidad versátil, así como robustez y fiabilidad. Esto lo hace ideal para procesos de aprendizaje, proyectos, maquetas o productos finales.</p>
 
 <h3>
 <a id="robgednaut-es-entretenimiento" class="anchor" href="#robgednaut-es-entretenimiento" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Robgednaut</em> es entretenimiento.</h3>
@@ -80,9 +73,138 @@
 <a id="versiones" class="anchor" href="#versiones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Versiones</h2>
 
 <ul>
-<li>  La primera versión de <em>Robgednaut</em>, conocida simplemente como <em>Roben</em> fue una prueba de concepto y viabilidad. A pesar de que funcionaba con éxito, se observaron múltiples posibilidades de mejora, que deribaron en la siguiente versión.</li>
+<li>  La primera versión de <em>Robgednaut</em>, conocida simplemente como <em>Roben</em> fue una prueba de concepto y viabilidad. A pesar de que funcionaba con éxito, se observaron múltiples posibilidades de mejora, que deribaron en la siguiente versión.<br>
+</li>
 <li>  <em>Robgednaut Zond</em>, segunda versión y que debe su nombre al <a href="https://es.wikipedia.org/wiki/Programa_Zond">programa Zond</a>, expande y mejora la version previa en muchos aspectos, manteniendo la misma filosofia. Por desgracia, también introduce cambios que impiden la retrocompatibilidad del diseño. Aunque seguramente esto no te suponga ningún problema.</li>
 </ul>
+
+<h2>
+<a id="licencia" class="anchor" href="#licencia" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Licencia</h2>
+
+<p><em>Robgednaut</em> es hardware y software libre liberado bajo GNU/GPL. Más detalles en el archivo <a href="https://github.com/akornsys-rdi/robgednaut/blob/master/README.md">README</a> del proyecto.</p>
+
+<h1>
+<a id="robgednaut-roben" class="anchor" href="#robgednaut-roben" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><em>Robgednaut Roben</em>
+</h1>
+
+<p><em>Robgednaut</em> es la primera generación de esta plataforma. Esta implementación destaca por su sencillez de diseño, enfocado a su uso. Además es más eficiente que sus semejantes, al usar regulación conmutada.</p>
+
+<p>Sus conexiones son los suficientemente amplias como para que puedan ser conectadas con cocodrilos, con un taladro que permite uniones con hilo conductor, y con la separación entre conexiones idónea para montar borneros de doscientas o trescientas milésimas de pulgada. Por supuesto en cualquier caso pueden ser soldadas.</p>
+
+<p>La inclusión de un controlador de motores tipo puente en H, permite poder manejar los tipos de motores más normales, así como solenoides y otras cargas que demanden una corriente moderada. Este controlador se ha elegido pensando en su fácil sustitución en caso de dañarse.</p>
+
+<h2>
+<a id="diseño-y-esquemático" class="anchor" href="#dise%C3%B1o-y-esquem%C3%A1tico" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diseño y esquemático</h2>
+
+<p>Los archivos fuente de diseño y los archivos de fabricación están disponibles en <a href="https://github.com/akornsys-rdi/robgednaut/tree/release-1/brd">GitHub</a>. La placa ha sido diseñada con <a href="http://kicad-pcb.org/">KiCad EDA</a>. Se puede acceder aquí directamente al <a href="https://github.com/akornsys-rdi/robgednaut/raw/release-1/brd/bin/roben.pdf">Esquemático ^PDF^</a>.</p>
+
+<p>En el diseño de la placa, se ha tenido en cuenta los costes de fabricación, optimizando el diseño para reducirlos en la medida de lo posible.</p>
+
+<h2>
+<a id="características" class="anchor" href="#caracter%C3%ADsticas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Características</h2>
+
+<p>Las características más relevantes de este diseño:</p>
+
+<h3>
+<a id="especificaciones" class="anchor" href="#especificaciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Especificaciones</h3>
+
+<table>
+<thead>
+<tr>
+<th align="right">Parámetro</th>
+<th align="left">Valor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Microcontrolador</td>
+<td align="left">Ninguno, zócalo para Arduino Nano v3.x</td>
+</tr>
+<tr>
+<td align="right">Tensión de funcionamiento (lógica)</td>
+<td align="left">5 V</td>
+</tr>
+<tr>
+<td align="right">Tensión de entrada (límites)</td>
+<td align="left">6-28 V</td>
+</tr>
+<tr>
+<td align="right">Conexiones de entrada/salida</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="right">Conexiones de motores</td>
+<td align="left">4</td>
+</tr>
+<tr>
+<td align="right">Dimensiones</td>
+<td align="left">47,625 x 90,17 mm (1.875 x 3.55 pulgadas)</td>
+</tr>
+</tbody>
+</table>
+
+<p>Para las especificaciones de Arduino Nano visite la <a href="https://www.arduino.cc/en/Main/ArduinoBoardNano">página oficial</a>.</p>
+
+<h3>
+<a id="protecciones" class="anchor" href="#protecciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Protecciones</h3>
+
+<table>
+<thead>
+<tr>
+<th align="right">Parámetro</th>
+<th align="left">Valor</th>
+<th align="left">Método</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Protección contra sobrecorriente en entrada de alimentación</td>
+<td align="left">2 A</td>
+<td align="left">Fusible de restablecimiento (PPTC)</td>
+</tr>
+<tr>
+<td align="right">Protección contra inversión de polaridad de entrada de alimentación</td>
+<td align="left">Hasta -40 V</td>
+<td align="left">Diodo Schottky</td>
+</tr>
+<tr>
+<td align="right">Protección contra inyección de tensión en salida 5 V</td>
+<td align="left">45 V</td>
+<td align="left">Diodo Schottky</td>
+</tr>
+<tr>
+<td align="right">Protección contra sobrecorriente en salida 5 V</td>
+<td align="left">2 A</td>
+<td align="left">Controlador DC-DC</td>
+</tr>
+<tr>
+<td align="right">Protección contra sobrecorriente en entrada/salida</td>
+<td align="left">23 mA</td>
+<td align="left">Resistencia</td>
+</tr>
+<tr>
+<td align="right">Protección contra tensión inadecuada en entrada/salida</td>
+<td align="left">-10 a 36 V</td>
+<td align="left">Diodo Zener</td>
+</tr>
+<tr>
+<td align="right">Protección contra sobrecorriente en salida de motores</td>
+<td align="left">1 A</td>
+<td align="left">Apagado térmico del controlador</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="alimentación" class="anchor" href="#alimentaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Alimentación</h3>
+
+<p>La alimentación se realiza a través de un bornero de alta calidad, con capacidad para conexión a través de cocodrilos. El rango de tensión funcional de esta entrada es de entre seis a veintiocho voltios. Debido a que son valores límite, es recomendable proporcionar una tensión segura dentro de este rango.</p>
+
+<p>La conexión por USB de Arduino Nano tiene la capacidad de alimentar la plataforma, pero puede no proporcionar toda la corriente necesaria para su correcto funcionamiento. Asegúrate de usar siempre la alimentación principal si tienes circuitos montados y vas a conectar el USB.</p>
+
+<blockquote>
+<p>Advertencia: Alimentar <em>Robgednaut</em> únicamente a través del puerto USB de Arduino puede provocar comportamientos anómalos y posibles daños al elemento que esté suministrando tensión al USB (normalmente un ordenador).</p>
+</blockquote>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/akornsys-rdi">akornsys-rdi</a></p>
