@@ -164,6 +164,14 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+header .center {
+  text-align: center;
+}
+
+header img {
+  margin: 10px 0;
+}
+
 header ul {
   list-style:none;
   height:40px;
@@ -208,7 +216,6 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
   font-weight:700;
 }
 
@@ -229,6 +236,44 @@ section {
   padding-bottom:50px;
 }
 
+section p, li{
+  text-align: justify;
+}
+
+section li {
+  margin-top: 10px;
+}
+
+section div.warn {
+  padding: 15px 15px 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(250, 235, 204);
+  border-radius: 6px;
+  color: rgb(138, 109, 59);
+  background-color: rgb(252, 248, 227);
+}
+
+section div.info {
+  padding: 15px 15px 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(188, 232, 241);
+  border-radius: 6px;
+  color: rgb(49, 112, 143);
+  background-color: rgb(217, 237, 247);
+}
+
+section p.img-caption {
+  color: rgb(85, 85, 85);
+  font-size: 12px;
+  background-color: rgb(247, 247, 249);
+  margin-top: -5px;
+  padding: 10px;
+}
+
+section .footnote {
+  font-size: 11px;
+}
+
 small {
   font-size:11px;
 }
@@ -237,7 +282,7 @@ hr {
   border:0;
   background:#e5e5e5;
   height:1px;
-  margin:0 0 20px;
+  margin:0 0 50px;
 }
 
 footer {
